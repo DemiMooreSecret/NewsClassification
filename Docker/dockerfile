@@ -1,0 +1,7 @@
+FROM node:14-alpine
+
+WORKDIR /src
+
+COPY main.py ./
+
+CMD ["python", "./main.py"]
