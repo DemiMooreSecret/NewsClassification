@@ -2,4 +2,10 @@ fastapi>=0.68.0,<0.69.0
 pydantic>=1.8.0,<2.0.0
 uvicorn>=0.15.0,<0.16.0
 python-multipart==0.0.6
-pandas==2.1.1
+transformers==4.33.2
+pandas==1.5.3
+numpy==1.23.5
+nltk==3.8.1
+pymorphy2==0.9.1
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==2.0.1+cpu
